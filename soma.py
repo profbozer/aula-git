@@ -11,3 +11,6 @@ def subtracao(a, b):
     elif isinstance(a, 
         (int,float)) and isinstance(b,(int,float)):
         return a - b
+
+def multiplicacao(a, b):
+    return a * b
